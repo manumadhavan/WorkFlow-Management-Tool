@@ -1,0 +1,84 @@
+/* Dashboard.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for better contrast */
+    margin: 0;
+}
+
+.dashboard-container {
+    max-width: 800px; /* Limit the width of the dashboard */
+    margin: 20px auto; /* Center the dashboard */
+    padding: 20px;
+    background-color: white; /* White background for the card effect */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.newhead {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-assign {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.button-update {
+    background-color: #28a745; /* Bootstrap success color */
+}
+
+.button-verify {
+    background-color: #28a745; /* Bootstrap success color */
+}
+
+.button-logout {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+}
+
+.button-logout:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+}
+
+table {
+    width: 100%; /* Full width for tables */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:nth-child(even) {
+    background-color: #fad3d3; /* Zebra striping for rows */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Highlight row on hover */
+}

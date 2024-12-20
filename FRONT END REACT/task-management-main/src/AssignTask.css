@@ -1,0 +1,60 @@
+/* AssignTask.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+}
+
+.assign-task-container {
+    max-width: 600px; /* Limit width */
+    margin: 50px auto; /* Center container */
+    padding: 20px;
+    background-color: white; /* White background for form */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    text-align: center; /* Center heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.form-group label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below label */
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.submit-button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.success-message {
+    margin-top: 20px;
+    color: green; /* Success message color */
+    text-align: center; /* Center success message */
+}
